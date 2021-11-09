@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container-1 {
+    width: 50%;
+    border: 1px solid red;
+    background: green;
+    overflow: auto;
+}
+
+.container-2 {
+    position: relative;
+    width: 50%;
+    border: 1px solid red;
+    background: blue;
+    overflow: auto;
+}
+
+.child {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.5);
+}
